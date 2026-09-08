@@ -1,3 +1,4 @@
+#print the weirdness of a number based on the given conditions
 print("Enter a number: ")
 n = int(input())
 
