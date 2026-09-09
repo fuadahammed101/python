@@ -1,3 +1,5 @@
-n = int(input())
-for i in range(1, n+1):
-    print(i)
+def print_full_name(first, last):
+
+first = "Faud"
+last = "Ahammed"
+print("Hello " + print_full_name + "! You just delved into python.")
