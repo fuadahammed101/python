@@ -27,7 +27,7 @@
 # else:
 #     print("Undefined")
 
-################################################
+#------------------------------------
 
 #leap year
 # def is_leap(year):
@@ -42,17 +42,38 @@
 # year = int(input())
 # print(is_leap(year))
 
-#positive, nagative and zero
+#------------------------------------
+#positive, nagative and zero (float or integer)
 
-n = float (input("Enter a number: "))
-if n == 0:
-    print("Zero")
-elif n > 0:
-    print("Positive ",end="")
-elif n < 0:
-    print("Nagative ",end="")
+# n = float (input("Enter a number: "))
+# if n == 0:
+#     print("Zero")
+# elif n > 0:
+#     print("Positive ",end="")
+# elif n < 0:
+#     print("Nagative ",end="")
 
-if n.is_integer():
-    print("Integer")
-else:
-    print("Float")
+# if n.is_integer():
+#     print("Integer")
+# else:
+#     print("Float")
+
+
+#------------------------------------
+#divisible by 5 and 11
+# n = int(input("Enter number: "))
+# if n % 5 == 0 and n % 11 == 0:
+#     print ("divisible by 5 and 11")
+# elif n % 5 == 0:
+#     print("divisible by 5 only")
+# elif n % 11 == 0:
+#     print("divisible by 11 only")
+# else:
+#     print("Not divisible by 5 and 11")
+
+#-----------------------------------
+# #Print Even and Odd Numbers (1 to 10)
+n = int(input("Enter a number: "))
+if n > 0 and n % 2 == 0:
+    for i in range (1, n+1):
+        print(i, end=" ")
