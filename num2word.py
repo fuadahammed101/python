@@ -1,3 +1,4 @@
+#convert integer to text
 from num2words import num2words
 a = int(input("Enter starting value: "))
 b = int(input("\nEnter ending value: "))
