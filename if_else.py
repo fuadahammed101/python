@@ -12,3 +12,5 @@ elif n % 2 ==0 and n> 20:
     print("Not Weird")
 else:
     print("Invalid input")
+
+
