@@ -1,6 +1,5 @@
 #print the weirdness of a number based on the given conditions
-print("Enter a number: ")
-n = int(input())
+n = int(input("Enter a number: "))
 
 if n % 2 != 0:
     print("Weird")
