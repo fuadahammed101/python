@@ -7,7 +7,7 @@ vote_count = {"Pranta": 0, "Fuad": 0, "Nafis": 0}
 #While loop to store vote dynamically
 while True:
     age = int(input("\n****** Welcome to Voting System ******\n\nEnter you age: ")) 
-
+    
     #validate age
     if age < 18:
         print("\nYou are not eligible.\n")
